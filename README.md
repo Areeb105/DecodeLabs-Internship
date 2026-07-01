@@ -18,6 +18,12 @@ AWS S3 static website URL:
 http://areeb-portfolio-2026-786.s3-website.ap-south-1.amazonaws.com
 ```
 
+GitHub repository:
+
+```text
+https://github.com/Areeb105/DecodeLabs-Internship
+```
+
 ## Files
 
 - `index.html` - portfolio page
@@ -26,14 +32,9 @@ http://areeb-portfolio-2026-786.s3-website.ap-south-1.amazonaws.com
 - `deploy-aws-s3.ps1` - AWS CLI deployment helper
 - `deploy-azure-blob.ps1` - Azure CLI deployment helper
 
-## Customize Before Submission
+## Project Status
 
-Open `index.html` and replace:
-
-- `your.email@example.com`
-- LinkedIn URL
-- GitHub URL
-- Any text that should use your real name, skills, or projects
+The website has already been deployed using AWS S3 static website hosting. The live URL above is publicly accessible and ready for Decode Labs review.
 
 ## Deploy With AWS S3
 
@@ -79,9 +80,9 @@ The script creates a resource group, creates a storage account, enables static w
 
 ## Submission Checklist
 
-- [ ] Website opens locally.
-- [ ] Name, email, and profile links are customized.
-- [ ] Static hosting enabled on AWS S3 or Azure Blob Storage.
-- [ ] Public URL opens in a browser.
+- [x] Website opens locally.
+- [x] Name customized in portfolio page.
+- [x] Static hosting enabled on AWS S3.
+- [x] Public URL opens in a browser.
 - [ ] Screenshot of bucket/container settings saved if required by mentor.
-- [ ] Live URL submitted to Decode Labs.
+- [x] Live URL added to this README.
